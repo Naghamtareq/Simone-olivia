@@ -1,0 +1,514 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;}
+
+
+
+.title {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.navlogo h3{
+  color: #fff;
+  font-weight: 300;
+}
+.title h2 {
+  font-size: 120px;
+  color: #eee;
+}
+
+.title p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+
+#first {
+  background-image: url(../images/images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.first-sec {
+  background-color: rgba(7, 0, 0, 0.7);
+  height: 100vh;
+}
+.nav a {
+  color: white;
+  transition: color 0.5s;
+}
+li.green-text a {
+  color: #1caf84;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navlogo {
+  font-size: 22px;
+}
+
+.nav a:hover {
+  color: #1caf84;
+}
+
+.nav .navlist {
+  margin: auto;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.caption {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hire {
+  color: #fff;
+  margin: 20px;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: #1caf84 2px solid;
+}
+.first-text h3 {
+  font-size: 25px;
+  padding: 15px 0px;
+}
+h1 {
+  font-size: 50px;
+}
+h1::after {
+  content: "";
+  animation: typing 5s infinite;
+  font-size: 50px;
+}
+@keyframes typing {
+  0% {
+    content: " |";
+  }
+  3% {
+    content: " S|";
+  }
+  6% {
+    content: " Si|";
+  }
+  9% {
+    content: " Simo|";
+  }
+  12% {
+    content: " Simone|";
+  }
+  15% {
+    content: " Simone O|";
+  }
+  18% {
+    content: " Simone Ol|";
+  }
+  21% {
+    content: " Simone Oli|";
+  }
+  24% {
+    content: " Simone Oliv|";
+  }
+  27% {
+    content: " Simone Olivi|";
+  }
+  30% {
+    content: " Simone Olivia|";
+  }
+  33% {
+    content: " Simone Olivi|";
+  }
+  36% {
+    content: " Simone Oliv|";
+  }
+  39% {
+    content: " Simone Oli|";
+  }
+  42% {
+    content: " Simone Ol|";
+  }
+  45% {
+    content: " Simone O|";
+  }
+  48% {
+    content: " Simone|";
+  }
+  51% {
+    content: " Simon|";
+  }
+  54% {
+    content: " Simo|";
+  }
+  57% {
+    content: " Sim|";
+  }
+  60% {
+    content: " Si|";
+  }
+  63% {
+    content: " |";
+  }
+  66% {
+    content: " a|";
+  }
+  69% {
+    content: " a F|";
+  }
+  72% {
+    content: " a Fr|";
+  }
+  75% {
+    content: " a Fre|";
+  }
+  78% {
+    content: " a Free|";
+  }
+  80% {
+    content: " a Freel|";
+  }
+  83% {
+    content: " a Freela|";
+  }
+  86% {
+    content: " a Freelanc|";
+  }
+  89% {
+    content: " a Freelancer|";
+  }
+  90% {
+    content: " a Freelanc |";
+  }
+  93% {
+    content: " a Freelan|";
+  }
+  96% {
+    content: " a Freel |";
+  }
+  100% {
+    content: " a Fr|";
+  }
+  100% {
+    content: " a F|";
+  }
+  100% {
+    content: " a |";
+  }
+  100% {
+    content: " |";
+  }
+}
+
+#second {
+  height: 100vh;
+}
+#second title h2 {
+  color: #dee3e4;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 7rem;
+}
+#second .title p {
+  text-align: center;
+}
+span{
+  color: #1caf84;
+}
+.parent{
+  display: flex;
+  padding: 20px;
+}
+.text{
+  width: 65%;
+}
+.text h2 {
+  padding: 10px;
+}
+.text p {
+  padding: 10px;
+  line-height: 1.5;
+}
+.form{
+  width: 30%;
+}
+.form h3{
+  padding: 10px;
+}
+.cv{
+  background-color: #1caf84;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  padding: 20px;
+  margin: 10px 15px 0px;
+}
+.nums{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.nums h4{
+  font-size: 50px;
+  color: #000;
+  opacity: 0.5;
+}
+.nums p{
+  color: #000;
+  opacity: 0.7;
+  text-align: center;
+}
+#third{
+background-color: #F8F9FA
+;
+}
+
+.material-symbols-outlined {
+  padding: 20px;
+  margin: 10px;
+
+}
+.service{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  justify-content: space-around;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  line-height: 1.5;
+  padding: 15px;
+}
+.red{
+  color: red;
+}
+.summary{
+  display: flex;
+  justify-content: space-around;
+}
+.summary-item{
+  height: 170px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.summary-item p{
+  padding: 10px 0px;
+  width: 80%;
+}
+.edu h2{
+  margin-left:25px;
+}
+.exp h2{
+  margin-left:25px;
+}
+.bg-g{
+  background-color: #1caf84;
+  border-radius: 4px;
+  color: #fff;
+  padding: 3px;
+}
+.greenb{
+  height: 7px;
+  width: 90%;
+  background-color: #1caf84;
+  border-radius: 20px;
+}
+.greyb{
+  height: 7px;
+  width: 100%;
+  background-color: grey;
+  border-radius: 20px;
+}
+.border{
+ width:45%;
+ padding: 15px 0px;
+}
+.analysis h2{
+  margin-left: 25px;
+  padding: 20px 0px;
+}
+.progress{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cv2{
+  background-color: transparent;
+  border: #aaa 1px solid;
+  border-radius: 20px;
+  color: #aaa;
+  padding: 15px;
+  margin: 30px 0px;
+ 
+}
+.button{
+display: flex;
+justify-content: center;
+}
+ .cv2 a{
+  color: #aaa;
+}
+#fifth{
+  background-color: #F8F9FA
+
+}
+ul{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+   gap: 30px;
+}
+.list a{
+  color: #aaa;
+  transition: color 1s;
+
+}
+.list a:hover {
+  color: #1caf84;
+}
+.green-text{
+  color: #1caf84;
+}
+
+.imgs{
+  display: flex;
+  gap: 20px;
+
+}
+.col{
+  width: 30%;
+}
+.col img{
+  width: 100%;
+position: relative;
+margin: 15px 30px;
+}
+.col-img{
+position: relative;
+}
+.layer{
+  position: absolute;
+  transition: opacity 1s;
+  top: 0;
+  left: 0;
+  margin: 15px 30px ;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+}
+.layer:hover{
+  opacity: 1;
+  color: #fff;
+}
+.fdbk-cont{
+  display: flex;
+  height: 250px;
+  
+}
+.fdbk-img img{
+  width: 70px;
+  border-radius: 50%;
+}
+
+.fdbk{
+  width: 45%;
+  background-color: #eee;
+  margin: 30px;
+  padding: 20px;
+}
+.flex{
+  display: flex;
+  padding: 10px;
+}
+.fdbk-txt{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#seventh{
+  background-color: #F8F9FA;
+}
+.address{
+  width: 25%;
+  padding: 20px;
+}
+.address p{
+  padding: 10px 0px;
+}
+.flex2{
+  display: flex;
+  margin: 0%;
+  padding: 6px 0px;
+}
+.flex2 a{
+  color: #1caf84;
+}
+.send input{
+  padding: 10px;
+}
+.msg a{
+  color: #fff;
+}
+.msg{
+  background-color: #1caf84;
+  color: #fff;
+  border:none;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+#footer{
+ height: 120px;
+}
+.send h2{
+  padding: 15px 0px;
+}
+#footer span{
+  color: #1caf84;
+}
+#footer a{
+  color: #000;
+}
+#footer a:hover{
+  color: #1caf84;
+}
+.footer-cont{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
